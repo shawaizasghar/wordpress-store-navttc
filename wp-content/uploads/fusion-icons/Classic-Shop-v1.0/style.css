@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Classic-Shop';
+  src:
+    url('fonts/Classic-Shop.ttf?yv3he4') format('truetype'),
+    url('fonts/Classic-Shop.woff?yv3he4') format('woff'),
+    url('fonts/Classic-Shop.svg?yv3he4#Classic-Shop') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-classic-shop-"], [class*=" icon-classic-shop-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Classic-Shop' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-classic-shop-bolt-solid:before {
+  content: "\e900";
+}
+.icon-classic-shop-check-circle-solid:before {
+  content: "\e901";
+}
+.icon-classic-shop-envelope-solid:before {
+  content: "\e902";
+}
+.icon-classic-shop-exclamation-circle-solid:before {
+  content: "\e903";
+}
+.icon-classic-shop-star-of-life-solid:before {
+  content: "\e904";
+}
+.icon-classic-shop-user:before {
+  content: "\e905";
+}
+.icon-classic-shop-bag_alt:before {
+  content: "\e906";
+}
+.icon-classic-shop-sort:before {
+  content: "\e907";
+}
+.icon-classic-shop-close:before {
+  content: "\e908";
+}
